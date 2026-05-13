@@ -14,7 +14,7 @@ const InstallerModal = ({ selectedApps, onClose }) => {
 
   const handleDownloadExe = async () => {
     try {
-      const response = await fetch('/SoftPortal.exe');
+      const response = await fetch(`${import.meta.env.BASE_URL}SoftPortal.exe`);
       const blob = await response.blob();
       
       // Generate filename: SoftPortal_ID1_ID2.exe
