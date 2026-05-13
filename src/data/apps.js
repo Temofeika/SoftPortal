@@ -1,59 +1,41 @@
 export const APP_CATEGORIES = [
   {
-    name: 'Web Browsers',
+    name: 'Браузеры',
     apps: [
       { id: 'Google.Chrome', name: 'Chrome', icon: 'Chrome' },
-      { id: 'Mozilla.Firefox', name: 'Firefox', icon: 'Globe' },
-      { id: 'Microsoft.Edge', name: 'Edge', icon: 'Globe' },
-      { id: 'Opera.Opera', name: 'Opera', icon: 'Globe' },
-      { id: 'Brave.Brave', name: 'Brave', icon: 'Globe' },
+      { id: 'Yandex.Browser', name: 'Yandex Browser', icon: 'Globe' },
     ]
   },
   {
-    name: 'Messaging',
-    apps: [
-      { id: 'Discord.Discord', name: 'Discord', icon: 'MessageSquare' },
-      { id: 'Telegram.TelegramDesktop', name: 'Telegram', icon: 'Send' },
-      { id: 'SlackTechnologies.Slack', name: 'Slack', icon: 'Slack' },
-      { id: 'Microsoft.Teams', name: 'Teams', icon: 'Users' },
-      { id: 'WhatsApp.WhatsApp', name: 'WhatsApp', icon: 'MessageCircle' },
-    ]
-  },
-  {
-    name: 'Media',
-    apps: [
-      { id: 'VideoLAN.VLC', name: 'VLC', icon: 'Play' },
-      { id: 'Spotify.Spotify', name: 'Spotify', icon: 'Music' },
-      { id: 'Audacity.Audacity', name: 'Audacity', icon: 'Mic' },
-      { id: 'HandBrake.HandBrake', name: 'HandBrake', icon: 'Video' },
-    ]
-  },
-  {
-    name: 'Developer Tools',
-    apps: [
-      { id: 'Microsoft.VisualStudioCode', name: 'VS Code', icon: 'Code' },
-      { id: 'Git.Git', name: 'Git', icon: 'GitBranch' },
-      { id: 'Docker.DockerDesktop', name: 'Docker', icon: 'Container' },
-      { id: 'Postman.Postman', name: 'Postman', icon: 'Zap' },
-      { id: 'JetBrains.IntelliJIDEA.Community', name: 'IntelliJ', icon: 'Terminal' },
-    ]
-  },
-  {
-    name: 'Utilities',
+    name: 'Архиваторы',
     apps: [
       { id: '7zip.7zip', name: '7-Zip', icon: 'FileArchive' },
-      { id: 'RARLab.WinRAR', name: 'WinRAR', icon: 'FileArchive' },
-      { id: 'Notepad++.Notepad++', name: 'Notepad++', icon: 'FileText' },
-      { id: 'CPU-Z.CPU-Z', name: 'CPU-Z', icon: 'Cpu' },
-      { id: 'CrystalDiskMark.CrystalDiskMark', name: 'CrystalDiskMark', icon: 'HardDrive' },
     ]
   },
   {
-    name: 'Security',
+    name: 'Документы',
     apps: [
-      { id: 'Malwarebytes.Malwarebytes', name: 'Malwarebytes', icon: 'Shield' },
-      { id: 'Bitwarden.Bitwarden', name: 'Bitwarden', icon: 'Lock' },
-      { id: 'KeePassXTeam.KeePassXC', name: 'KeePassXC', icon: 'Key' },
+      { id: 'TheDocumentFoundation.LibreOffice', name: 'LibreOffice', icon: 'FileText' },
+      { id: 'Adobe.AdobeReader', name: 'Adobe Reader', icon: 'FileText' },
+    ]
+  },
+  {
+    name: 'Утилиты',
+    apps: [
+      { id: 'AnyDeskSoftwareGmbH.AnyDesk', name: 'AnyDesk', icon: 'Zap' },
+      { id: 'Custom.TeamDesk', name: 'TeamDesk (MSI)', icon: 'Users', type: 'custom' },
+      { id: 'Custom.OpenVPN', name: 'OpenVPN 2.5.3 (MSI)', icon: 'Shield', type: 'custom' },
+    ]
+  },
+  {
+    name: 'Бухгалтерия',
+    apps: [
+      { id: 'Custom.CryptoPro', name: 'КриптоПРО', icon: 'Lock', type: 'custom' },
+      { id: 'Custom.Rutoken', name: 'Рутокен', icon: 'Key', type: 'custom' },
+      { id: 'Extension.CryptoPro', name: 'Расширение КриптоПро (ЭП)', icon: 'Puzzle', type: 'extension' },
+      { id: 'Extension.CryptoProNew', name: 'Новое расширение КриптоПро', icon: 'Puzzle', type: 'extension' },
+      { id: 'Extension.Gosuslugi', name: 'Плагин Госуслуг', icon: 'Puzzle', type: 'extension' },
+      { id: 'Extension.Gosplugin', name: 'Госплагин', icon: 'Puzzle', type: 'extension' },
     ]
   }
 ];

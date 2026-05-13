@@ -5,8 +5,8 @@
   --accent-color: #0070f3;
   --accent-gradient: linear-gradient(135deg, #0070f3 0%, #00d1ff 100%);
   --text-primary: #ffffff;
-  --text-secondary: #888888;
-  --glass-bg: rgba(10, 10, 10, 0.7);
+  --text-secondary: #a1a1a1;
+  --glass-bg: rgba(10, 10, 10, 0.8);
   --glass-border: rgba(255, 255, 255, 0.1);
 }
 
